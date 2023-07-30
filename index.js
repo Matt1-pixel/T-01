@@ -40,6 +40,15 @@ const toggleForms = () => {
     todoList.classList.toggle('hide');
 
 }
+const updateTodo = (text) => {
+    const todos = document.querySelectorAll("todo")
+
+    todos.forEach((todo) => {
+        let todoTitle = todo.querySelectorAll
+
+        
+    })
+}
 
 todoForm.addEventListener("submit", (e) => {
     e.preventDefault();
